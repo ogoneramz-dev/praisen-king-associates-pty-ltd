@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up | PraisenKing & Associates</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Create an account with PraisenKing & Associates.">
+</head>
+<body>
+
+<header class="header">
+  <div class="container navbar">
+    <div class="icon">
+      <h2 class="logo">PraisenKing &<br><span>Associates</span></h2>
+    </div>
+
+    <nav class="menu" aria-label="Primary navigation">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="aboutus.html">ABOUT</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="design.html">DESIGN</a></li>
+        <li><a href="careers.html">CAREERS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <form class="search" role="search" action="search.html" method="GET">
+      <input class="srch" type="search" name="q" placeholder="Search…" aria-label="Search">
+      <button class="btn" type="submit">Search</button>
+    </form>
+  </div>
+</header>
+
+<main class="section">
+  <div class="container">
+    <div class="page-header">
+      <h1>Create Account</h1>
+      <p class="lead">This is a front-end form (connect to backend later).</p>
+    </div>
+
+    <div class="auth-wrap">
+      <section class="card">
+        <h2 class="h3">Sign up</h2>
+
+        <form class="auth-form" action="#" method="POST">
+          <label class="auth-label" for="fullname">Full name</label>
+          <input id="fullname" name="fullname" type="text" required placeholder="Your name">
+
+          <label class="auth-label" for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="name@example.com">
+
+          <label class="auth-label" for="phone">Phone (optional)</label>
+          <input id="phone" name="phone" type="tel" placeholder="+267 …">
+
+          <label class="auth-label" for="password">Password</label>
+          <input id="password" name="password" type="password" required placeholder="Create a strong password">
+
+          <label class="auth-label" for="password2">Confirm password</label>
+          <input id="password2" name="password2" type="password" required placeholder="Repeat your password">
+
+          <button class="btnn" type="submit">Create Account</button>
+
+          <p class="auth-footer">
+            Already have an account? <a href="login.html">Login</a>
+          </p>
+        </form>
+      </section>
+
+      <aside class="card">
+        <h2 class="h3">What you get</h2>
+        <p class="small">Faster requests, better tracking, clearer communication.</p>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>© 2025 PraisenKing & Associates. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
